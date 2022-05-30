@@ -8,6 +8,7 @@ DEBUG = True
 
 # Connect to the database
 
+WTF_CSRF_ENABLED = False
 
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = '<Put your local database url>'
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:str%40K!NS@localhost:5432/example'
