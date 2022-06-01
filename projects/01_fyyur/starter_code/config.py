@@ -11,4 +11,5 @@ DEBUG = True
 WTF_CSRF_ENABLED = False
 
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:str%40K!NS@localhost:5432/example'
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:postgres@localhost:5432/fyyur'
+# SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:str%40K!NS@localhost:5432/example'
